@@ -1,3 +1,7 @@
 def square_array(array)
-  # your code here
+  array.lenght.times { |index|
+    puts array[index]**
+  }
+end
+    
 end
